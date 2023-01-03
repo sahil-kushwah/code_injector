@@ -4,7 +4,7 @@ Inject HTML, CSS and JS while communication between client in server, MITM
 Used with arp spoofer first become Man in the middle then use this to inject code.
 
 Set iptables and linux ip forwardng rules before using code_injector:
-To set linux ip forwarding to true:
+To set linux ip forwarding to true:\n
 echo 1 > /proc/sys/net/ipv4/ip_forward
 or
 sysctl -w net.ipv4.ip_forward=1
