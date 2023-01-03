@@ -1,5 +1,4 @@
 # code_injector
-test
 
 
 Usage: code_injector.py [options]
