@@ -3,7 +3,7 @@ Inject HTML, CSS and JS while communication between client in server, MITM
 
 Used with arp spoofer first become Man in the middle then use this to inject code.
 
-Set iptables rule to this before using code_injector:
+Set iptables rules before using code_injector:
 use set_rules.sh
 
 Usage: code_injector.py [options]
