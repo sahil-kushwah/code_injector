@@ -50,5 +50,6 @@ def code_inj(packet):
             
 
 nfqueue = NetfilterQueue()
+print('Waititng for response....')
 nfqueue.bind(0, code_inj)
 nfqueue.run()
